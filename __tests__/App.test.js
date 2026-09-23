@@ -1,8 +1,8 @@
 import { render, fireEvent, act } from "@testing-library/react-native";
 import App from "../App";
-import { sendData } from "../services/sendDate";
+import { sendData } from "../services/sendData";
 
-jest.mock("../services/sendDate", () => ({
+jest.mock("../services/sendData", () => ({
   sendData: jest.fn(),
 }));
 
